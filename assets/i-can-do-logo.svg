@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 368 132" fill="none">
+  <title>I CAN DO!</title>
+  <!-- A compact custom wordmark. All letters are vector paths. -->
+  <g fill="#faf9f6">
+    <path d="M5 41H32V52H25V87H32V98H5V87H12V52H5Z"/>
+    <path fill-rule="evenodd" d="M219 41H239C258 41 268 50 268 69.5S258 98 239 98H219ZM232 53V86H239C250 86 254 81 254 69.5S250 53 239 53Z"/>
+    <path fill-rule="evenodd" d="M302 40C320 40 330 50 330 69.5S320 99 302 99 274 89 274 69.5 284 40 302 40ZM302 53C292 53 288 58 288 69.5S292 86 302 86 316 81 316 69.5 312 53 302 53Z"/>
+    <path d="M340 41H355L353 79H342Z"/>
+    <circle cx="347.5" cy="92" r="7"/>
+  </g>
+  <g transform="rotate(-6 125 67)">
+    <!-- Rolled rims, an elliptical lid and a pull tab make CAN a little can. -->
+    <path d="M48 25H202V105C202 115 168 121 125 121S48 115 48 105Z" fill="#ed7448" stroke="#20221f" stroke-width="3.5" stroke-linejoin="round"/>
+    <path d="M49 100C60 108 88 113 125 113S190 108 201 100" stroke="#20221f" stroke-width="2.5" stroke-linecap="round"/>
+    <ellipse cx="125" cy="25" rx="77" ry="14" fill="#faf9f6" stroke="#20221f" stroke-width="3.5"/>
+    <ellipse cx="125" cy="25" rx="65" ry="8" stroke="#20221f" stroke-width="1.5"/>
+    <ellipse cx="120" cy="25" rx="12" ry="4.5" fill="#20221f"/>
+    <path d="M122 22L134 19C138 18 143 19 143 22S138 27 134 27L122 26" fill="#faf9f6" stroke="#20221f" stroke-width="1.8"/>
+    <g fill="#20221f">
+      <path d="M99 53L91 62C88 59 85 57 81 57 74 57 70 62 70 71S74 85 81 85C85 85 88 83 91 80L99 89C94 94 88 97 80 97 65 97 57 87 57 71S65 45 80 45C88 45 94 48 99 53Z"/>
+      <path fill-rule="evenodd" d="M116 46H130L147 96H134L131 86H114L111 96H98ZM117 75H128L122.5 58Z"/>
+      <path d="M151 46H163L180 74V46H192V96H180L163 68V96H151Z"/>
+    </g>
+  </g>
+</svg>

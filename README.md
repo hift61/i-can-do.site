@@ -2,10 +2,11 @@
 
 디자인 작업 중인 정적 사이트. 캔 모양의 CAN을 사용한 헤더와, 스크롤에 따라 우주에서 지상으로 이어지는 전체 화면 배경을 구현했습니다.
 
-- `index.html`: 다섯 개 스크롤 구간과 헤더
+- `index.html`: 첫 화면의 동기 문구, 다섯 개 스크롤 구간과 헤더
 - `styles.css`: 고정 배경, 반응형 로고, 스크롤 안내
 - `scene.js`: 별, 먼 태양, 행성, 지구 곡면, 대기, 구름과 산의 Canvas 렌더링
-- `assets/i-can-do-logo.svg`: 벡터 로고
+- `assets/i-can-do-logo.svg`: 확정한 CAN 캔위성 로고 (파랑·흰색 낙하산, 흰색 캔 몸통)
+- `assets/i-can-do-cansat-logo.svg`: 캔위성 로고 작업본
 - `CNAME`: 기존 도메인 설정
 
 로컬 미리보기: `python3 -m http.server 8765 --bind 127.0.0.1`

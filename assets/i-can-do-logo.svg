@@ -1,22 +1,32 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 368 132" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 368 238" fill="none">
   <title>I CAN DO!</title>
   <!-- A compact custom wordmark. All letters are vector paths. -->
-  <g fill="#faf9f6">
+  <g fill="#faf9f6" transform="translate(0 80)">
     <path d="M5 41H32V52H25V87H32V98H5V87H12V52H5Z"/>
     <path fill-rule="evenodd" d="M219 41H239C258 41 268 50 268 69.5S258 98 239 98H219ZM232 53V86H239C250 86 254 81 254 69.5S250 53 239 53Z"/>
     <path fill-rule="evenodd" d="M302 40C320 40 330 50 330 69.5S320 99 302 99 274 89 274 69.5 284 40 302 40ZM302 53C292 53 288 58 288 69.5S292 86 302 86 316 81 316 69.5 312 53 302 53Z"/>
     <path d="M340 41H355L353 79H342Z"/>
     <circle cx="347.5" cy="92" r="7"/>
   </g>
-  <g transform="rotate(-6 125 67)">
-    <!-- Rolled rims, an elliptical lid and a pull tab make CAN a little can. -->
-    <path d="M48 25H202V105C202 115 168 121 125 121S48 115 48 105Z" fill="#ed7448" stroke="#20221f" stroke-width="3.5" stroke-linejoin="round"/>
-    <path d="M49 100C60 108 88 113 125 113S190 108 201 100" stroke="#20221f" stroke-width="2.5" stroke-linecap="round"/>
-    <ellipse cx="125" cy="25" rx="77" ry="14" fill="#faf9f6" stroke="#20221f" stroke-width="3.5"/>
-    <ellipse cx="125" cy="25" rx="65" ry="8" stroke="#20221f" stroke-width="1.5"/>
-    <ellipse cx="120" cy="25" rx="12" ry="4.5" fill="#20221f"/>
-    <path d="M122 22L134 19C138 18 143 19 143 22S138 27 134 27L122 26" fill="#faf9f6" stroke="#20221f" stroke-width="1.8"/>
-    <g fill="#20221f">
+  <!-- Blue-and-white canopy and suspension lines reference the supplied CanSat image. -->
+  <g stroke="#c9d9e8" stroke-width="1.5" stroke-linecap="round" opacity=".95">
+    <path d="M43.904 60.510L85.767 113.519M74.873 62.216L97.740 110.335M106.490 67.993L109.822 107.924M139.190 72.862L121.989 106.116M170.807 78.639L134.238 104.893M200.693 81.254L150.728 104.389"/>
+  </g>
+  <g transform="rotate(5 125 40)">
+    <path d="M46 69C34 34 61 6 116 5 171 3 207 30 204 76Q189 65 174 76Q158 66 142 73Q125 63 109 71Q91 60 77 68Q60 57 46 69Z" fill="#2666a5"/>
+    <path d="M116 5C78 18 72 41 77 68Q91 60 109 71C103 46 103 23 116 5Z" fill="#f1f2ee"/>
+    <path d="M116 5C149 19 161 44 142 73Q158 66 174 76C188 40 167 15 116 5Z" fill="#e3e8ed"/>
+  </g>
+  <g transform="translate(125 157) scale(.82) translate(-125 -157) rotate(-8 125 157)">
+    <!-- White instrument housing with blue rolled rims. -->
+    <path d="M63 105H187V203C187 215 160 223 125 223S63 215 63 203Z" fill="#f0f4f7" stroke="#3879b6" stroke-width="3.5" stroke-linejoin="round"/>
+    <path d="M65 201C81 211 101 215 125 215S170 211 185 201" stroke="#3879b6" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M69 118V197" stroke="#c2d6e7" stroke-width="2" stroke-linecap="round"/>
+    <ellipse cx="125" cy="105" rx="62" ry="12" fill="#f7f9fb" stroke="#3879b6" stroke-width="3.5"/>
+    <ellipse cx="125" cy="105" rx="52" ry="7" stroke="#7aa2c6" stroke-width="1.5"/>
+    <ellipse cx="120" cy="105" rx="10" ry="4" fill="#245a87"/>
+    <path d="M122 102L132 99C136 98 141 99 141 102S136 107 132 107L122 106" fill="#f7f9fb" stroke="#3879b6" stroke-width="1.8"/>
+    <g fill="#174570" transform="translate(30 97) scale(.76 .9)">
       <path d="M99 53L91 62C88 59 85 57 81 57 74 57 70 62 70 71S74 85 81 85C85 85 88 83 91 80L99 89C94 94 88 97 80 97 65 97 57 87 57 71S65 45 80 45C88 45 94 48 99 53Z"/>
       <path fill-rule="evenodd" d="M116 46H130L147 96H134L131 86H114L111 96H98ZM117 75H128L122.5 58Z"/>
       <path d="M151 46H163L180 74V46H192V96H180L163 68V96H151Z"/>

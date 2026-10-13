@@ -13,11 +13,28 @@
   <canvas id="universe" aria-hidden="true"></canvas>
   <header class="site-header">
     <a class="brand" href="#space" aria-label="I CAN DO! 홈">
-      <img src="assets/i-can-do-logo.svg" width="368" height="132" alt="I CAN DO! — CAN이 캔 모양인 로고">
+      <img src="assets/i-can-do-logo.svg?v=2" width="368" height="238" alt="I CAN DO! — CAN이 낙하산을 단 캔위성 모양인 로고">
     </a>
   </header>
   <main id="journey" aria-label="우주에서 지상으로 내려오는 배경">
-    <section id="space" class="journey-stage" aria-label="별과 먼 태양, 행성이 보이는 우주"></section>
+    <section id="space" class="journey-stage space-intro" aria-labelledby="motivation-title">
+      <div class="motivation-composition">
+        <h1 id="motivation-title" aria-label="우리도 우주에 갈 수 있을까?">
+          <span class="motivation-lead">우리도</span>
+          <span class="motivation-universe">
+            <svg class="word-orbit" viewBox="0 0 600 240" aria-hidden="true">
+              <defs><linearGradient id="orbit-light" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#739bcd" stop-opacity="0"/><stop offset=".35" stop-color="#9abde5" stop-opacity=".25"/><stop offset=".7" stop-color="#d4e6fa" stop-opacity=".85"/><stop offset="1" stop-color="#739bcd" stop-opacity="0"/></linearGradient></defs>
+              <ellipse cx="300" cy="120" rx="265" ry="68" transform="rotate(-14 300 120)" fill="none" stroke="url(#orbit-light)" stroke-width="1"/>
+              <circle cx="522" cy="49" r="3" fill="#dceeff"/>
+              <path d="M522 38V60M511 49H533" stroke="#dceeff" stroke-width=".7"/>
+            </svg>
+            <span class="universe-text">우주에</span>
+          </span>
+          <span class="motivation-question">갈 수 있을까<span class="question-mark">?</span></span>
+        </h1>
+        <div class="motivation-rule" aria-hidden="true"><span></span><i></i><span></span></div>
+      </div>
+    </section>
     <section id="orbit" class="journey-stage" aria-label="지구에 접근"></section>
     <section id="atmosphere" class="journey-stage" aria-label="대기권으로 진입"></section>
     <section id="clouds" class="journey-stage" aria-label="구름 아래로 하강"></section>

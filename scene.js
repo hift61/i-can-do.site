@@ -4,8 +4,6 @@
  const canvas=document.getElementById('universe'),ctx=canvas.getContext('2d');
  if(!ctx)return;
  const progressDot=document.getElementById('progress-dot');
- const cue=document.querySelector('.scroll-cue');
- const scrollLabel=document.getElementById('scroll-label');
  let w=0,h=0,frame=0,stars=[],terrain=[];
  const clamp=(v,a=0,b=1)=>Math.min(b,Math.max(a,v));
  const lerp=(a,b,t)=>a+(b-a)*t;
@@ -127,7 +125,6 @@
   // A light vignette keeps the header readable at every altitude.
   const vignette=ctx.createLinearGradient(0,0,0,h*.22);vignette.addColorStop(0,'#03091638');vignette.addColorStop(1,'#03091600');ctx.fillStyle=vignette;ctx.fillRect(0,0,w,h*.22);
   progressDot.style.top=`${t*100}%`;
-  const ended=t>.96;scrollLabel.textContent=ended?'BACK TO SPACE':'SCROLL TO EARTH';cue.setAttribute('href',ended?'#space':'#ground');cue.lastElementChild.textContent=ended?'↑':'↓';
  }
  function schedule(){if(!frame)frame=requestAnimationFrame(draw);}
  function resize(){

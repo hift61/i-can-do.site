@@ -5,34 +5,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#050914">
   <title>I CAN DO!</title>
-  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="styles.css">
-  <script src="scene.js?v=3" defer></script>
+  <link rel="icon" href="assets/team-emblem-transparent.png" type="image/png">
+  <link rel="stylesheet" href="styles.css?v=quiet-emphasis-2">
+  <script src="scene.js?v=4" defer></script>
 </head>
 <body>
   <canvas id="universe" aria-hidden="true"></canvas>
   <header class="site-header">
     <a class="brand" href="#space" aria-label="I CAN DO! 홈">
-      <img src="assets/i-can-do-logo.svg?v=2" width="368" height="238" alt="I CAN DO! — CAN이 낙하산을 단 캔위성 모양인 로고">
+      <img src="assets/team-emblem-transparent.png" width="1254" height="1254" alt="CAN-SAT 2026 팀 엠블럼">
+      <span class="brand-name">I CAN DO!</span>
     </a>
   </header>
   <main id="journey" aria-label="우주에서 지상으로 내려오는 배경">
     <section id="space" class="journey-stage space-intro" aria-labelledby="motivation-title">
       <div class="motivation-composition">
         <h1 id="motivation-title" aria-label="우리도 우주에 갈 수 있을까?">
-          <span class="motivation-lead">우리도</span>
-          <span class="motivation-universe">
-            <svg class="word-orbit" viewBox="0 0 600 240" aria-hidden="true">
-              <defs><linearGradient id="orbit-light" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#739bcd" stop-opacity="0"/><stop offset=".35" stop-color="#9abde5" stop-opacity=".25"/><stop offset=".7" stop-color="#d4e6fa" stop-opacity=".85"/><stop offset="1" stop-color="#739bcd" stop-opacity="0"/></linearGradient></defs>
-              <ellipse cx="300" cy="120" rx="265" ry="68" transform="rotate(-14 300 120)" fill="none" stroke="url(#orbit-light)" stroke-width="1"/>
-              <circle cx="522" cy="49" r="3" fill="#dceeff"/>
-              <path d="M522 38V60M511 49H533" stroke="#dceeff" stroke-width=".7"/>
-            </svg>
-            <span class="universe-text">우주에</span>
-          </span>
-          <span class="motivation-question">갈 수 있을까<span class="question-mark">?</span></span>
+          <span class="question-intro">우리도</span>
+          <strong class="question-universe">우주에</strong>
+          <span class="question-ending">갈 수 있을까?</span>
         </h1>
-        <div class="motivation-rule" aria-hidden="true"><span></span><i></i><span></span></div>
+        <a class="scroll-cue" href="#ground"><span id="scroll-label">SCROLL TO EARTH</span><span aria-hidden="true">↓</span></a>
       </div>
     </section>
     <section id="orbit" class="journey-stage" aria-label="지구에 접근"></section>
@@ -40,7 +33,6 @@
     <section id="clouds" class="journey-stage" aria-label="구름 아래로 하강"></section>
     <section id="ground" class="journey-stage" aria-label="산과 땅이 가까워지는 지상"></section>
   </main>
-  <a class="scroll-cue" href="#ground"><span class="scroll-line" aria-hidden="true"></span><span id="scroll-label">SCROLL TO EARTH</span><span aria-hidden="true">↓</span></a>
   <div class="journey-progress" aria-hidden="true"><span>SPACE</span><div class="progress-track"><i id="progress-dot"></i></div><span>EARTH</span></div>
   <noscript><p class="fallback-note">스크롤 배경을 보려면 JavaScript를 켜주세요.</p></noscript>
 </body>
